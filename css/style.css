@@ -1,0 +1,14 @@
+button{
+    background-color: red;
+    color: black
+    border-radius: 10px;
+}
+.Paraclass{
+    text-decoration: underline;
+    color: crimson;
+    background-color:black;
+}
+#Paraname{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+}

@@ -1,0 +1,40 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'navsection navsection navsection navsection navsection navsection'
+    'sidemenua sidemenua sidemenua sidemenua sidemenua sidemenua'
+    'barnersection barnersection barnersection barnersection barnersection barnersection'
+    'sidemenub sidemenub sidemenub sidemenub sidemenub sidemenub'
+    'maingallery maingallery maingallery maingallery maingallery maingallery'
+    'footersection footersection footersection footersection footersection footersection';
+
+}
+#navsection{
+    
+    grid-area: navsection;
+}
+#barnersection{
+    
+    grid-area: barnersection;
+}
+#maingallery{
+    
+    grid-area: maingallery;
+}
+#footersection{
+    background-color: green;
+    grid-area: footersection;
+}
+#sidemenua{
+    background-color: purple;
+    grid-area: sidemenua;
+}
+#sidemenub{
+    background-color: orange;
+    grid-area: sidemenub;
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: red;
+    }
